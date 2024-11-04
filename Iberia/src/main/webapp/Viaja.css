@@ -1,0 +1,38 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-image: url('imagenes/Playa.jpeg'); /* Imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        header {
+            background-color: #DC143C;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            height: 40px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+            font-size: 14px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }

@@ -1,0 +1,76 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .Contenedorjefe {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .oferta-contenedor {
+            background-color: white;
+            width: 100%; /* Ancho completo del contenedor */
+            height: 250px; /* Altura para hacer cuadrado */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            color: #333;
+            
+        }
+        .oferta-contenedor img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            
+        }
+        .oferta-contenedor h2 {
+            font-size: 18px;
+            color: #DC143C;
+            margin: 10px 0 5px;
+        }
+        .oferta-contenedor p {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 10px;
+        }
+        .oferta-contenedor .price {
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+        .oferta-contenedor button {
+            background-color: #007bff; /* Color azul */
+            color: white;
+            border: 2px solid #ff0000; /* Borde rojo neón */
+            padding: 10px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .oferta-contenedor button:hover {
+            background-color: #0056b3; 
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .back-button:hover {
+            background-color: #218838;
+        }
